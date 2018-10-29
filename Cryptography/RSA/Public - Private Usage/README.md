@@ -10,10 +10,10 @@ Dengan menggunakan tool dari [Ganapati/RsaCtfTool/](https://github.com/Ganapati/
 
 Setelah didapatkan private key-nya, encrypted dapat di-decrypt dengan command
 
-    openssl rsautl -decrypt -in flag0.enc -inkey private.pem
-    openssl rsautl -decrypt -in flag1.enc -inkey private.pem
-    openssl rsautl -decrypt -in flag2.enc -inkey private.pem
-    openssl rsautl -decrypt -in flag3.enc -inkey private.pem
+    openssl rsautl -decrypt -in flag0.enc -inkey private_key.pem
+    openssl rsautl -decrypt -in flag1.enc -inkey private_key.pem
+    openssl rsautl -decrypt -in flag2.enc -inkey private_key.pem
+    openssl rsautl -decrypt -in flag3.enc -inkey private_key.pem
 
 Flag : GEMASTIK{Gem4571kITS}
 
