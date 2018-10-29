@@ -1,8 +1,20 @@
 ## Problem
 PicoCTF 2018<br/>
-<Judul soal saya lupa :v><br/>
+Super Safe RSA 3<br/>
+
+## Hint
+How would you find d if there are more than 2 prime factors of n?<br/>
 
 ## Deskripsi
-TODO
+Diberikan sebuah *service*, yang ketika diakses akan didapatkan<br/>
+```
+c : 211233878176139958404264864209276548836073766408962213554876211225652027343113429221187522541182642685647999344384807451081287402332098958213676333486774233116222632100844757917639115574044159777833250740253012442523557091943410364730891140615382869151456431822061635559148980124882138478019629198137325
+n : 1464630312725039231276429358568992592864466838554723082742829483040979639659295957499415607171079112878465605003475149561993978197873242605285251650125725630269762474254341508914762555366854195720167218237220862915065201853626822042026436665859784729163981831668307963361886151330939097572475015730075093
+e : 65537
+```
+Berdasarkan *hint*, diasumsikan bahwa RSA ini *vulnerable* dengan **Multiple Prime Attack**, setelah melihat *Writeup* serupa dari event Timisoara 2018 di (writeup)[https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA], didapatkan *step*<br/>
+Cari faktornya dengan [yafu](https://github.com/DarkenCode/yafu)</br>
+Selesaikan dengan *script* solver.py dari referensi tadi (diogoaj)[https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA]<br/>
 
+Flag : **picoCTF{p_&_q_n0_r_$_t!!_5280799}**
 
