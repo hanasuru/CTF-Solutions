@@ -23,4 +23,4 @@ Ketika dijalankan, didapatkan flag-nya<br/>
     python solver.py
     picoCTF{e_w4y_t00_sm411_9f5d2464}
 
-Flag : picoCTF{e_w4y_t00_sm411_9f5d2464}
+Flag : **picoCTF{e_w4y_t00_sm411_9f5d2464}**
