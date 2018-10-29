@@ -2,7 +2,7 @@
 Penyisihan Keamanan Jaringan dan Sistem Informasi Gemastik 11
 
 ## Deskripsi
-Diberikan 4 buah file encrypted dengan nama flag0.enc sampai flag1.enc dan 1 buah file public key dengan format PEM.
+Diberikan 4 buah file encrypted dengan nama flag0.enc sampai flag3.enc dan 1 buah file public key dengan format PEM.
 Diasumsikan 4 file tersebut dienkripsi dengan key yang sama.
 Dengan menggunakan tool dari [Ganapati/RsaCtfTool/](https://github.com/Ganapati/RsaCtfTool/), didapatkan private key-nya
 
