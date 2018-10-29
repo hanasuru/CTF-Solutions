@@ -12,9 +12,9 @@ c : 2112338781761399584042648642092765488360737664089622135548762112256520273431
 n : 1464630312725039231276429358568992592864466838554723082742829483040979639659295957499415607171079112878465605003475149561993978197873242605285251650125725630269762474254341508914762555366854195720167218237220862915065201853626822042026436665859784729163981831668307963361886151330939097572475015730075093
 e : 65537
 ```
-Berdasarkan *hint*, diasumsikan bahwa RSA ini *vulnerable* dengan **Multiple Prime Attack**, setelah melihat *Writeup* serupa dari event Timisoara 2018 di (writeup)[https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA], didapatkan *step*<br/>
+Berdasarkan *hint*, diasumsikan bahwa RSA ini *vulnerable* dengan **Multiple Prime Attack**, setelah melihat *Writeup* serupa dari event Timisoara 2018 di [writeup](https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA), didapatkan *step*<br/>
 Cari faktornya dengan [yafu](https://github.com/DarkenCode/yafu)</br>
-Selesaikan dengan *script* solver.py dari referensi tadi (diogoaj)[https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA]<br/>
+Selesaikan dengan *script* solver.py dari referensi [diogoaj](https://github.com/diogoaj/ctf-writeups/tree/master/2018/Timisoara/crypto/NotYourAverageRSA)<br/>
 
 Flag : **picoCTF{p_&_q_n0_r_$_t!!_5280799}**
 
