@@ -10,7 +10,7 @@ e: 3
 C: 2205316413931134031046440767620541984801091216351222789180593875373829950860542792110364325728088504479780803714561464250589795961097670884274813261496112882580892020487261058118157619586156815531561455215290361274334977137261636930849125
 ```
 Diketahui *vulnerability* ada pada e-nya yang kecil.<br/>
-Setelah membaca referensi dari [Stackoverflow](https://stackoverflow.com/questions/356090/how-to-compute-the-nth-root-of-a-very-big-integer), dibuatlah *script* solver.py yang berisi<br/>
+Setelah membaca referensi dari [Stackoverflow](https://stackoverflow.com/questions/356090/how-to-compute-the-nth-root-of-a-very-big-integer), dibuatlah *script* solver.py dari user [gimel](https://stackoverflow.com/users/6491/gimel) yang berisi<br/>
 
     import gmpy
     from Crypto.Util.number import *
